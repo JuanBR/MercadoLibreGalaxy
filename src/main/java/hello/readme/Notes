@@ -1,0 +1,13 @@
+
+========================
+* Considereciones
+========================
+
+* El sistema contempla sistemas solares con un solo sol, orbitas circulares y un clima con las 
+  mismas condiciones que el sistema solar Mercado Libre.
+* El servicio de Clima funciona para sistemas con menos de tres planetas.
+* Para sistemas con mas de tres planetas la logica de alineacion sigue siendo util, no obstante la 
+  triangulacion se seguira haciendo en base a los primeros tres.
+* Dado que PI es un numero aproximado el programa tiene cierto rango de error, en nuestro caso
+	decidimos redondear a un entero.
+* Se desconoce el clima con el sol fuera del triangulo
